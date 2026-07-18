@@ -23,3 +23,5 @@ logs/
 # IDE
 .vscode/
 .idea/
+.vercel
+.env*

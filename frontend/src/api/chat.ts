@@ -1,7 +1,11 @@
 import axios from "axios";
 
+// Reads backend URL from environment
+const API_URL =
+  import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+
 const API = axios.create({
-  baseURL: "http://127.0.0.1:8000",
+  baseURL: API_URL,
 });
 
 // New session every browser refresh
@@ -20,7 +24,7 @@ export async function streamMessage(
   question: string,
   onChunk: (chunk: string) => void
 ) {
-  const response = await fetch("http://127.0.0.1:8000/chat/stream", {
+  const response = await fetch(`${API_URL}/chat/stream`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
