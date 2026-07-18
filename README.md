@@ -129,19 +129,22 @@ npm run dev
 ---
 
 ## 📸 Screenshots
+### 🏠 Home Page
+
+![Home](docs/Home.png)
+---
 
 ### Chat Interface
 
-(Add screenshot)
+![Chat](docs/Chat.png)
+---
 
 ### Analytics Panel
+![Analytics](docs/Analytics.png)
+---
+### Sources
 
-(Add screenshot)
-
-### Confidence Engine
-
-(Add screenshot)
-
+![Sources](docs/Sources.png)
 ---
 
 ## 🚀 Future Improvements
