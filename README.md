@@ -11,6 +11,18 @@ This project implements a **Self-Healing RAG pipeline** that continuously improv
 Unlike traditional RAG systems, this application evaluates retrieved documents, rewrites poor queries, retries retrieval when necessary, reranks documents, detects knowledge gaps, and provides a confidence score with analytics for every response.
 
 ---
+## ⭐ Key Highlights
+
+- 🚀 Developed a complete **Self-Healing Retrieval-Augmented Generation (RAG)** system using FastAPI, React, LangChain, Groq, and ChromaDB.
+- 🔄 Automatically rewrites ambiguous or low-quality user queries before retrieval.
+- 📊 Grades retrieval quality and intelligently retries searches when results are insufficient.
+- 🎯 Reranks retrieved documents to improve answer relevance.
+- 🧠 Detects knowledge gaps and lowers confidence for unsupported queries.
+- 📈 Generates dynamic confidence scores based on retrieval quality, retries, and knowledge-gap detection.
+- 📚 Displays source attribution with document names and page numbers for transparency.
+- 📊 Provides a Self-Healing Analytics dashboard showing rewritten queries, retrieval grades, retry counts, and response time.
+- ⚡ Supports streaming responses using Groq for low-latency interactions.
+- 💬 Maintains conversational context with chat history for follow-up questions.
 
 ## ✨ Features
 
