@@ -1,0 +1,25 @@
+# Python
+.venv/
+docker-env/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+backend/.env
+
+# Node
+frontend/node_modules/
+
+# macOS
+.DS_Store
+
+# Chroma
+chroma_db/
+
+# Logs
+logs/
+
+# IDE
+.vscode/
+.idea/
